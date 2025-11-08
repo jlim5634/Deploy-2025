@@ -8,7 +8,6 @@ from sklearn.cluster import DBSCAN
 from xgboost import XGBClassifier
 import datetime
 
-
 app = Flask(__name__, static_folder="frontend/my-app/build", static_url_path="")
 CORS(app, origins=["http://localhost:3000"])
 
